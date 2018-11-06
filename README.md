@@ -38,7 +38,7 @@ Outputed into `dist/`.
 yarn dev
 ```
 
-Open 'http://localhost:8080' in a browser.
+Open `http://localhost:8080` in a browser.
 
 ### Test
 
