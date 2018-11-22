@@ -12,10 +12,10 @@ module.exports = (env, argv) => {
 
   const common = {
     mode: MODE,
-    entry: './src/index.js',
+    entry: './src/main.js',
     output: {
       path: path.join(__dirname, 'dist/assets'),
-      filename: 'index.js',
+      filename: 'main.js',
       publicPath: '/assets/',
     },
     plugins: [
