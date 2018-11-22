@@ -2,6 +2,7 @@
   "linters": {
     ".babelrc": ["prettier --write", "git add"],
     "*.{js,json}": ["prettier --write", "git add"],
-    "*.elm": ["elm-format --yes", "git add"]
+    "*.elm": ["elm-format --yes", "git add"],
+    "*.html": ["prettier --write", "git add"]
   }
 }
